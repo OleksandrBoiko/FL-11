@@ -1,18 +1,20 @@
-/*
+/*/*/*/*
  * Feel free to change name of colors if you need it
  * Feel free to add new colors if you need it
  */
-:root {
+/*:root {
   --bg-color--dark: #0b192f;
   --bg-color--header: #162b4d;
   --link: #fff;
   --link--hover: #b8b8b8;
   --bg-footer-color: #162b4d;;
 }
-
+*/
 body {
   font-family: roboto;
   background-color: #0b192f;
+  margin: 0;
+  padding: 0;
 }
 .post-1 {
 	background: #B71757;
@@ -28,6 +30,7 @@ body {
 }
 .post-5 {
 	background: #2d95bb;
+
 }
 
 /* Your styles go here */
@@ -55,9 +58,42 @@ body {
   }
 
   .aside-2 {
-    background: hotpink;
+    background: #0b192f;
     margin-left: 15px;
   }
+    
+  .news_block{
+        display: block;
+    margin-bottom: 15px;
+    background-color: #fff;
+    
+
+  }
+
+  .aside_info {
+
+        padding: 0 20px 20px 20px;
+  }
+
+  .aside_picture {
+    display: block;
+  }
+
+  .aside_title {
+    font-size: 1.5em;
+    font-weight: 200;
+    text-align: left;
+
+
+  }
+
+  .aside_description {
+    font-size: 0.7em;
+    font-weight: 200;
+    text-align: left;
+
+  }
+
 
   @media all and (min-width: 600px) {
     .aside { flex: 1 0 0; }
@@ -328,6 +364,10 @@ time {
 .flex-end {
   position: absolute;
   top: 25px;
+}
+
+body{
+  padding: 0;
 }
 
 
